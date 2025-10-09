@@ -13,7 +13,7 @@ function JSX() {
           padding: "20px 30px",
           fontSize: "20px",
           borderRadius: "15px",
-          cursor:"col-resize",
+          cursor:"-moz-grab",
 
         }}
       >

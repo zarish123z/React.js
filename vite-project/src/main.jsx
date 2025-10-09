@@ -5,6 +5,7 @@ import App from './App.jsx'
 import FirstFile,{Profile,Setting} from './Firstfile.jsx'
 import ClassComponent from './ClassComponent.jsx'
 import JSX from './JSX.jsx'
+import UseState_FC from './UseState_FC.jsx'
 
 
 
@@ -16,7 +17,8 @@ createRoot(document.getElementById('root')).render(
   <Profile/>
   <Setting/> */}
   {/* <ClassComponent name='  ZARISH  '/> */}
-  <JSX/>
+{/* <JSX/> */}
+<UseState_FC/>
   
  
   
