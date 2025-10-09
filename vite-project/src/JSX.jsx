@@ -5,7 +5,7 @@ function JSX() {
   return (
     <div style={{ textAlign: "center", marginTop: "px" }}>
       
-      <h1 style={{ color: "red" }}> {name}!</h1>
+      <h1 style={{ color:"indigo" }}> {name}!</h1>
       <button
         onClick={clicked}
         style={{

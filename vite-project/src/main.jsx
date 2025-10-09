@@ -4,6 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import FirstFile,{Profile,Setting} from './Firstfile.jsx'
 import ClassComponent from './ClassComponent.jsx'
+import JSX from './JSX.jsx'
 
 
 
@@ -11,10 +12,11 @@ import ClassComponent from './ClassComponent.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-  <FirstFile  name ='My Self  Sherry Sugar_Khalifa' age={23}/>
+  {/* <FirstFile  name ='My Self  Sherry Sugar_Khalifa' age={23}/>
   <Profile/>
-  <Setting/>
+  <Setting/> */}
   {/* <ClassComponent name='  ZARISH  '/> */}
+  <JSX/>
   
  
   
