@@ -1,30 +1,20 @@
 
+import React from "react";
 
-function PropsFC(props){
-    return(
-        <div>
-        <h1>Hello, {props.name}!</h1>
-      <p>This is My first Functional Component </p>
-            <h3>Age: {props.age}</h3> <br>
-            </br>
-            <h4> this hsbh{50 + 50}</h4>
-
-        </div>
-       
-    )
+// Functional Component using props
+function PropsFC({ name, age }) {
+  return (
+    <div>
+      <h2>👤 Hello, {name}!</h2>
+      <p>🎂 Your age is: {age}</p>
+    </div>
+  );
 }
 export function Profile(){
     return(
-        <div>
-            <h1>PROFILE</h1>
-        </div>
+        <h3> Your profile : 👤... </h3>
     )
 }
-export function Setting(){
-    return(
-        <div>
-            <h2> Go to Setting </h2>
-        </div>
-    )
-}
-export default PropsFC       
+
+
+export default PropsFC;
