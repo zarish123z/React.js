@@ -2,7 +2,7 @@ import { useState } from "react";  // import usestate
 function UseState_FC(){
 const [count , setCount]= useState(0);  // declare state variable 
  
-const increase = () => setCount(count + 100); // increase count by 1
+const increase = () => setCount(count + 10); // increase count by 1
   const decrease = () => setCount(count - 50); //decrease count by -1
   const reset = () => setCount(0);  // 
 
@@ -30,7 +30,7 @@ return(
         <button onClick ={decrease}
 
         style={{
-            backgroundColor : "tomato",
+            backgroundColor : "green",
             color : "white",
             padding:"15px 25px",
             fontSize:"18px",
@@ -50,7 +50,7 @@ return(
           <button onClick ={reset}
 
         style={{
-            backgroundColor : "tomato",
+            backgroundColor :"yellowgreen",
             color : "white",
             padding:"15px 25px",
             fontSize:"18px",

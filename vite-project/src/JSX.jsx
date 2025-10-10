@@ -9,7 +9,7 @@ function JSX() {
       <button
         onClick={clicked}
         style={{
-            backgroundColor :"royalblue",
+            backgroundColor:"yellowgreen",
           padding: "20px 30px",
           fontSize: "20px",
           borderRadius: "15px",

@@ -12,7 +12,7 @@ super(props); // must call super to use 'this'
     render(){
         return(
 <div>
-    <h1>'Hello! This is a Class Componenet'</h1>
+    <h1>'Hello! This is a Class Component'</h1>
     <p> Welcome!{this.props.name}</p>
 </div>
                 )
