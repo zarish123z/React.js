@@ -1,6 +1,6 @@
 
 
-function FirstFile(props){
+function PropsFC(props){
     return(
         <div>
         <h1>Hello, {props.name}!</h1>
@@ -27,4 +27,4 @@ export function Setting(){
         </div>
     )
 }
-export default FirstFile         
+export default PropsFC       
