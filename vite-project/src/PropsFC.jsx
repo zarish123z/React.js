@@ -4,7 +4,7 @@ function PropsFC(props){
     return(
         <div>
         <h1>Hello, {props.name}!</h1>
-      <p>This is My first Functional Component</p>
+      <p>This is My first Functional Component </p>
             <h3>Age: {props.age}</h3> <br>
             </br>
             <h4> this hsbh{50 + 50}</h4>

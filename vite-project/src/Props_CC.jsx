@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 
 
-class ClassComponent extends Component{
+class Props_CC extends Component{
     constructor(props){
 super(props); // must call super to use 'this'
 
@@ -25,4 +25,4 @@ export function profile(){
         </div>
     )
 }
-export default ClassComponent
+export default  Props_CC
