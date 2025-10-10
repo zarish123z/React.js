@@ -5,7 +5,8 @@ import React from "react";
 function PropsFC({ name, age }) {
   return (
     <div>
-      <h2>👤 Hello, {name}!</h2>
+        {/* for Eomjis:https://emojipedia.org/ */}
+      <h2>👤 Hello, {name}!</h2>  
       <p>🎂 Your age is: {age}</p>
     </div>
   );
