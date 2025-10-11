@@ -1,28 +1,18 @@
+
 import React, { Component } from "react";
 
+class Props_CC extends Component {
+  render() {
+    //  props using this.props
+    const { name, course } = this.props;
 
-class Props_CC extends Component{
-    constructor(props){
-super(props); // must call super to use 'this'
+    return (
+      <div>
+        <h2>Welcome, {name}!</h2>
+        <p>You are learning: {course}</p>
+      </div>
+    );
+  }
+}
 
-// this.method={
-//     message:'Hello! This is a Class Componenet'
-// }
-}
-    render(){
-        return(
-<div>
-    <h1>'Hello! This is a Class Component'</h1>
-    <p> Welcome!{this.props.name}</p>
-</div>
-                )
-    }
-}
-export function profile(){
-    return(
-        <div>
-            <h1>PROFILE</h1>
-        </div>
-    )
-}
-export default  Props_CC
+export default Props_CC;

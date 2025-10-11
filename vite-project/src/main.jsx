@@ -14,9 +14,11 @@ import UseState_FC from './UseState_FC.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     {/* <App /> */}
-     <PropsFC name="ZARISH" age={23} />
+     {/* <PropsFC name="ZARISH" age={23} />
      <Profile/>
-     
+      */}
+      
+    <Props_CC name="Zarish" course="Advanced React_Programming" />
   
   {/* <Props_CC name='  ZARISH  '/> */}
 {/* <JSX/> */}
