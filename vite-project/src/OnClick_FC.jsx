@@ -1,6 +1,7 @@
-function JSX() {
+function OnClick_FC() {
   const name = "Welcome to Vite + React ";
-  const clicked = () => alert(`Hello, ${name}!`);
+  // Function to handle button click~
+  const clicked = () => alert(`Hello! ${name}`);
 
   return (
     <div style={{ textAlign: "center", marginTop: "px" }}>
@@ -23,4 +24,4 @@ function JSX() {
   );
 }
 
-export default JSX;
+export default OnClick_FC;
