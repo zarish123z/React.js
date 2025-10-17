@@ -6,6 +6,9 @@ import PropsFC,{Profile} from './PropsFC.jsx'
 import Props_CC from './Props_CC.jsx'
 import UseState_FC from './UseState_FC.jsx'
 import OnClick_FC from './onClick_FC.jsx'
+import OnChange_FC from './OnChange_FC.jsx'
+
+
 
 
 
@@ -21,14 +24,10 @@ createRoot(document.getElementById('root')).render(
     {/* <Props_CC name="Zarish" course="Advanced React_Programming" /> */}
 
 {/* <UseState_FC/> */}
-<OnClick_FC/>
+{/* <OnClick_FC/> */}
+<OnChange_FC/>
+
+
  
-
-
-
-  
- 
-
-
   </StrictMode>
 )
