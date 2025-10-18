@@ -4,7 +4,7 @@ function ConditionalRendering() {
   // State: Tracks whether user is logged in
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  // ⚡ Toggle login state + show alert
+  //  Toggle login state + show alert
 
   const handleToggle = () => {
     const newState = !isLoggedIn; //(flip true or false)
