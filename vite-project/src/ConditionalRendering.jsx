@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
 function ConditionalRendering() {
-  // State: Tracks whether user is logged in
   const [LoggedIn, setLoggedIn] = useState(false);
 
   //  Toggle login state + show alert or IF_Else but inside(handleToggle)
@@ -35,7 +33,7 @@ function ConditionalRendering() {
 
       <h3>{LoggedIn ? " Welcome, User!" : " Please log in."}</h3>
 
-        {/* ✅ Logical AND Operator */}
+        {/*  Logical AND Operator */}
       {LoggedIn && <p style={{ color: "#1b6cbdff" }}> You have admin access.</p>}
 
       {/*  Toggle Button */}
@@ -53,10 +51,10 @@ export default ConditionalRendering;
                   // NOte
 
 // const handleToggle = () => {
-//   const newState = !isLoggedIn; //(flip true or false)
+//   const newState = !isLoggedIn; //(flip true or false means)
 //   setIsLoggedIn(newState); // updates the state
 
-//   // 👇 This part is your IF–ELSE statement 
+//   //  This part is your IF–ELSE statement when we use ternary op same working 
 //   if (newState) {
 //     alert("✅ Logged in successfully!");
 //   } else {
