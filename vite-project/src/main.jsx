@@ -9,6 +9,9 @@ import OnClick_FC from './onClick_FC.jsx'
 import OnChange_FC from './OnChange_FC.jsx'
 import OnMouse_FC from './OnMouse_FC.jsx'
 import HideShowToggle from './HideShowToggle.jsx'
+import ConditionalRendering from './ConditionalRendering.jsx'
+
+
 
 
 createRoot(document.getElementById('root')).render(
@@ -24,7 +27,12 @@ createRoot(document.getElementById('root')).render(
 {/* <OnClick_FC/> */}
 {/* <OnChange_FC/> */}
 {/* <OnMouse_FC/> */}
-<HideShowToggle/>
+{/* <HideShowToggle/> */}
+<ConditionalRendering/>
+
+
+
+
 
 
 
