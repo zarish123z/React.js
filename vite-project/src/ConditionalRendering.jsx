@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 function ConditionalRendering() {
   // State: Tracks whether user is logged in
-  const [isLoggedIn, setIsLoggedIn] = useState(true);
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   // ⚡ Toggle login state + show alert
 
@@ -27,7 +27,7 @@ function ConditionalRendering() {
 
   return (
     <div style={{ textAlign: "center", marginTop: "60px" }}>
-      <h2> Conditional Rendering (Ternary Operator)</h2>
+      <h2> Conditional Rendering</h2>
 
       {/* If isLoggedIn is true → shows  “Welcome, User!”
       If false → shows  “Please log in.” */}
