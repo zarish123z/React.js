@@ -29,7 +29,7 @@ function ListAndKeys() {
               fontSize: "16px",
             }}
           >
-            {/* 👇 Step 4: Display name and age or gender */}
+            {/*   Display name and age or gender */}
              {/* strong just for bold */}
             <strong>{student.name}</strong> <br></br>
              Age: {student.age} <br></br> 
