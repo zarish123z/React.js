@@ -11,6 +11,8 @@ import OnMouse_FC from './OnMouse_FC.jsx'
 import HideShowToggle from './HideShowToggle.jsx'
 import ConditionalRendering from './ConditionalRendering.jsx'
 import ListAndKeys from './ListandKeys.jsx'
+import TableList from './TableList.jsx'
+// import TL from './TL.jsx'
 
 
 
@@ -32,7 +34,9 @@ createRoot(document.getElementById('root')).render(
 {/* <OnMouse_FC/> */}
 {/* <HideShowToggle/> */}
 {/* <ConditionalRendering/> */}
-<ListAndKeys/>
+{/* <ListAndKeys/> */}
+<TableList/>
+
 
 
   </StrictMode>
