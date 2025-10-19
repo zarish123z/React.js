@@ -10,6 +10,8 @@ import OnChange_FC from './OnChange_FC.jsx'
 import OnMouse_FC from './OnMouse_FC.jsx'
 import HideShowToggle from './HideShowToggle.jsx'
 import ConditionalRendering from './ConditionalRendering.jsx'
+import ListAndKeys from './ListandKeys.jsx'
+
 
 
 
@@ -29,7 +31,8 @@ createRoot(document.getElementById('root')).render(
 {/* <OnChange_FC/> */}
 {/* <OnMouse_FC/> */}
 {/* <HideShowToggle/> */}
-<ConditionalRendering/>
+{/* <ConditionalRendering/> */}
+<ListAndKeys/>
 
 
   </StrictMode>
