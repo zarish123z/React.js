@@ -12,6 +12,7 @@ import HideShowToggle from './HideShowToggle.jsx'
 import ConditionalRendering from './ConditionalRendering.jsx'
 import ListAndKeys from './ListandKeys.jsx'
 import TableList from './TableList.jsx'
+import UseEffectTitle from './UseEffectTitle.jsx'
 
 
 
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root')).render(
 {/* <ConditionalRendering/> */}
 {/* <ListAndKeys/> */}
 {/* <TableList/> */}
+<UseEffectTitle/>
 
 
 
