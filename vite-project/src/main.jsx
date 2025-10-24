@@ -13,7 +13,7 @@ import ConditionalRendering from './ConditionalRendering.jsx'
 import ListAndKeys from './ListandKeys.jsx'
 import TableList from './TableList.jsx'
 import UseEffect from './UseEffect.jsx'
-import GF from './GF.jsx'
+
 
 
 
@@ -40,7 +40,7 @@ createRoot(document.getElementById('root')).render(
 {/* <ListAndKeys/> */}
 {/* <TableList/> */}
 <UseEffect/>
-{/* <GF/> */}
+
 
 
 
