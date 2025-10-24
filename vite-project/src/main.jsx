@@ -13,6 +13,7 @@ import ConditionalRendering from './ConditionalRendering.jsx'
 import ListAndKeys from './ListandKeys.jsx'
 import TableList from './TableList.jsx'
 import UseEffectTitle from './UseEffectTitle.jsx'
+import UseEffectTimer from './UseEffectTimer.jsx'
 
 
 
@@ -40,7 +41,8 @@ createRoot(document.getElementById('root')).render(
 {/* <ConditionalRendering/> */}
 {/* <ListAndKeys/> */}
 {/* <TableList/> */}
-<UseEffectTitle/>
+{/* <UseEffectTitle/> */}
+<UseEffectTimer/>
 
 
 
