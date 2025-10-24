@@ -20,7 +20,7 @@ function UseEffectTitle() {
         borderRadius: "10px",
         boxShadow: "0 0 10px gray",
       }}>
-      <h2>useEffect Example</h2>
+      <h2>useEffect </h2>
       <p>You clicked {count} times</p>
       <button onClick={() => setCount(count + 1)}
         style={{
