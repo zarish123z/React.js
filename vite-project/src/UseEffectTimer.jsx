@@ -28,6 +28,23 @@ function UseEffectTimer() {
     >
       <h2>⏱️ Timer..... </h2>
       <h3>Seconds passed: {seconds}</h3>
+      
+      {/*  Reset Button */}
+      <button
+        onClick={() => setSeconds(0)} // Reset timer
+        style={{
+          marginTop: "15px",
+          padding: "10px 20px",
+          fontSize: "16px",
+          borderRadius: "8px",
+          backgroundColor: "#1976d2",
+          color: "white",
+          border: "none",
+          cursor: "pointer",
+        }}
+      >
+        Reset Timer
+      </button>
     </div>
   );
 }
