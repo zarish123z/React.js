@@ -14,6 +14,13 @@ import ListAndKeys from './ListandKeys.jsx'
 import TableList from './TableList.jsx'
 import UseEffectTitle from './UseEffectTitle.jsx'
 import UseEffectTimer from './UseEffectTimer.jsx'
+import UseRef_FocusInput from './UseRef_FocusInput.jsx'
+
+
+
+
+
+
 
 
 
@@ -42,9 +49,8 @@ createRoot(document.getElementById('root')).render(
 {/* <ListAndKeys/> */}
 {/* <TableList/> */}
 {/* <UseEffectTitle/> */}
-<UseEffectTimer/>
-
-
+{/* <UseEffectTimer/> */}
+<UseRef_FocusInput/>
 
 
 
