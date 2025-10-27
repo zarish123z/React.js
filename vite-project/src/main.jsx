@@ -15,6 +15,7 @@ import TableList from './TableList.jsx'
 import UseEffectTitle from './UseEffectTitle.jsx'
 import UseEffectTimer from './UseEffectTimer.jsx'
 import UseRef_FocusInput from './UseRef_FocusInput.jsx'
+import UseRef_Hook from './UseRef_Hook.jsx'
 
 
 
@@ -50,7 +51,9 @@ createRoot(document.getElementById('root')).render(
 {/* <TableList/> */}
 {/* <UseEffectTitle/> */}
 {/* <UseEffectTimer/> */}
-<UseRef_FocusInput/>
+{/* <UseRef_FocusInput/> */}
+<UseRef_Hook/>
+
 
 
 
