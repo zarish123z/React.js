@@ -2,48 +2,87 @@
 import React, { useState, useEffect } from "react";
 
 function UseEffectTimer() {
-  //  create State for seconds
   const [seconds, setSeconds] = useState(0);
+  const [Running, setRunning] = useState(false); // Timer ON/OFF control
 
-  //  useEffect to start timer
   useEffect(() => {
-    const timer = setInterval(() => {
-      setSeconds((prev) => prev + 1); //  Har 1000miliseconds(1_sec) badhata jaaye
-    }, 1000);        
+    let timer;
 
-    //  Cleanup (jab component band ho)
+    if (Running) {
+      timer = setInterval(() => {
+        setSeconds((prev) => prev + 1);
+      }, 1000);
+    }
+
+    //  Cleanup
     return () => clearInterval(timer);
-  }, []);  // Empty [] → sirf ek bar run hoga
-        // UI Styling
+  }, [Running]); //  Run only when state changes
+
+  //  Reset Timer
+  const resetTimer = () => {
+    setSeconds(0);
+    setRunning(false);
+  };
+
   return (
     <div
       style={{
         textAlign: "center",
-        marginTop: "100px",
-        background: "#e3f2fd",
+        marginTop: "70px",
+        background: "#f0f8ff",
         padding: "30px",
-        borderRadius: "10px",
+        borderRadius: "12px",
         boxShadow: "0 0 10px gray",
       }}
     >
-      <h2>⏱️ Timer..... </h2>
-      <h3>Seconds passed: {seconds}</h3>
-      
-      {/*  Reset Button */}
+      <h2>⏱️Timer.!.!.</h2>
+      <h1 style={{ fontSize: "45px", marginBottom: "25px" }}>{seconds}s</h1>
+
+      {/* ▶ Start */}
       <button
-        onClick={() => setSeconds(0)} // Reset timer
+        onClick={() => setRunning(true)}
         style={{
-          marginTop: "15px",
-          padding: "10px 20px",
-          fontSize: "16px",
-          borderRadius: "8px",
-          backgroundColor: "#1976d2",
-          color: "white",
+          padding: "8px 15px",
+          borderRadius: "6px",
+          background: "#009688",
+          color: "#fff",
           border: "none",
           cursor: "pointer",
         }}
       >
-        Reset Timer
+        ▶ Start
+      </button>
+
+      {/* ⏸ Pause */}
+      <button
+        onClick={() => setRunning(false)}
+        style={{
+          marginLeft: 10,
+          padding: "8px 15px",
+          borderRadius: "6px",
+          background: "#e65100",
+          color: "#fff",
+          border: "none",
+          cursor: "pointer",
+        }}
+      >
+        ⏸ Pause
+      </button>
+
+      {/*  Reset */}
+      <button
+        onClick={resetTimer}
+        style={{
+          marginLeft: 10,
+          padding: "8px 15px",
+          borderRadius: "6px",
+          background: "#1976d2",
+          color: "#fff",
+          border: "none",
+          cursor: "pointer",
+        }}
+      >
+         Reset
       </button>
     </div>
   );
