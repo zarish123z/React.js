@@ -3,8 +3,8 @@ import React,{useState} from 'react'
 function TableList() {
     //   Create an array of student objects
   const students = [
-    { id: 1, name: "Ali", age: 20, gender: "male" },
-    { id: 2, name: "Sara", age: 22, gender: "female"  },
+    { id: 1, name: "Zarish", age: 22, gender: "male" },
+    { id: 2, name: "Maryam", age: 21, gender: "female"  },
     { id: 3, name: "Hassan", age: 19, gender: "male"  },
     { id: 4, name: "Zara", age: 21, gender: "female"  },
   ];
