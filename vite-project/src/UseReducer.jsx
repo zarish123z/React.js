@@ -19,7 +19,6 @@ function themeReducer(state,action){
 }
 
 
-
 function UseReducer() {
     // 3: Connect reducer with UI
     const [state ,dispatch] = useReducer(themeReducer ,initialState)

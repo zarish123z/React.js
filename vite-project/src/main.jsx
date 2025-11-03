@@ -19,6 +19,7 @@ import UseRef_Hook from "./UseRef_Hook.jsx";
 import UseContext from "./UseContext.jsx";
 import AppInsideuseContext from "./AppInsideuseContext.jsx";
 import UseReducer from "./UseReducer.jsx";
+import UseMemo from "./UseMemo.jsx";
 
 
 
@@ -48,7 +49,8 @@ createRoot(document.getElementById("root")).render(
     {/* <UseContext>
   <AppInsideuseContext/>
 </UseContext> */}
-<UseReducer/>
+{/* <UseReducer/> */}
+<UseMemo/>
 
 
 
