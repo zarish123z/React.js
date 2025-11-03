@@ -49,8 +49,8 @@ createRoot(document.getElementById("root")).render(
     {/* <UseContext>
   <AppInsideuseContext/>
 </UseContext> */}
-{/* <UseReducer/> */}
-<UseMemo/>
+<UseReducer/>
+{/* <UseMemo/> */}
 
 
 
