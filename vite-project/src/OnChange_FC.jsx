@@ -9,7 +9,7 @@ function OnChange_FC() {
     agree: false,
   });
 
-  // ⚠️ Validation error messages
+  //  Validation error messages
   const [errors, setErrors] = useState({});
 
   //  Generic handler for all inputs
@@ -22,7 +22,7 @@ function OnChange_FC() {
     });
   };
 
-  // 📌 Form Validation Function
+  //  Form Validation Function
   const validateForm = () => {
     let newErrors = {};
 
