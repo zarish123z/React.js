@@ -5,6 +5,7 @@ const products = ["Apple", "Banana", "Mango", "Grapes", "Orange", "Papaya"];
 
 function UseCallback() {
   const [search, setSearch] = useState("");
+  
 
   //  useCallback -> filtering function memoized
   // Only re-creates when `search` value changes
@@ -43,6 +44,8 @@ function UseCallback() {
           marginBottom: "15px",
         }}
       />
+
+      
 
       {/*  Call memoized function */}
       <ul style={{ listStyle: "none", padding: 0 }}>

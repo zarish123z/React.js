@@ -25,6 +25,7 @@ import UseCallback from "./UseCallback.jsx";
 
 
 
+
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     {/* <App /> */}
@@ -36,7 +37,7 @@ createRoot(document.getElementById("root")).render(
 
     {/* <UseState_FC/> */}
     {/* <OnClick_FC/> */}
-    {/* <OnChange_FC/> */}
+    <OnChange_FC/>
     {/* <OnMouse_FC/> */}
     {/* <HideShowToggle/> */}
     {/* <ConditionalRendering/> */}
@@ -52,7 +53,8 @@ createRoot(document.getElementById("root")).render(
 </UseContext> */}
 {/* <UseReducer/> */}
 {/* <UseMemo/> */}
-<UseCallback/>
+{/* <UseCallback/>  */}
+
 
 
 
